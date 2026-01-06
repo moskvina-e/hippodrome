@@ -19,7 +19,6 @@ class HorseTest {
 
     @BeforeEach
     void setUp() {
-        // Создаем валидную лошадь перед каждым тестом
         horse = new Horse(VALID_NAME, VALID_SPEED, VALID_DISTANCE);
     }
 
